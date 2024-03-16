@@ -4,6 +4,7 @@ import NavBar from './components/NavBar';
 import SearchBar from './components/SearchBar';
 import { TimeAndLocation } from './components/TimeAndLocation';
 import TemperatureDetails from './components/TemperatureDetails';
+import Forecast from './components/Forecast';
 
 function App() {
   return (
@@ -13,7 +14,10 @@ function App() {
         <SearchBar />
 
         <TimeAndLocation />
-        <TemperatureDetails/>
+        <TemperatureDetails />
+        <Forecast title='hourly forecast' />
+        <Forecast title='daily forecast'/>
+
       </div>
 
     </>
